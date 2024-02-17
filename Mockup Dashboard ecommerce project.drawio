@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2024-02-16T08:08:29.350Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="q4P4h5vSpoy2Rht9eNMb" version="23.0.2" type="device">
+  <diagram name="Page-1" id="RPR_vgfx-XrzNlnIbNYg">
+    <mxGraphModel dx="2316" dy="2356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v4bip-bz8EmeWLOC1X9s-2" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;REQUIREMENTS&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;1.Menampilkan performa transaksi secara keseluruhan&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;2.Mengetahui trend penjualan&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;3.Mengetahui performa dari setiap metode pembayaran&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;4.Mengetahui product mana yang paling laku&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;5.Mengetahui spending untuk discount&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;6.Ringkasan transaksi untuk setiap produk dan&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;konsumen&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1090" y="-1680" width="310" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="v4bip-bz8EmeWLOC1X9s-4" value="SYSTEM REQUIREMENT&amp;nbsp;&lt;br&gt;1. Metric yang digunakan adalah total penjualan, profit, total customer, total barang yang dibeli, total transaksi yang dilakukan&lt;br&gt;2.tren = line chart dari sales&lt;br&gt;3. perbandingan metric antar metode pembayaran = bar chart . metric = nilai sales dan jumlah transaksi&lt;br&gt;4. perbandingan product sold dan revenue yang didapatnya . by category atau by product name = bar chart&lt;br&gt;5.nilai diskon per product&lt;br&gt;6.tabel total transaksi tiap produk dan tiap konsumenn" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" parent="1" vertex="1">
+          <mxGeometry x="-310" y="-1690" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-1" value="sales" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="-1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-6" value="profit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-845" y="-1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-7" value="transaksi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-8" value="barang" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-375" y="-1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-9" value="customer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-11" value="Tren Penjualan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="-1350" width="600" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-15" value="perbandingan metric metode pembayaran jumlah transaksi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="-1350" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-16" value="perbandingan metric metode pembayaran sales" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="-1350" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1J90uPFelO6u6bb-csYD-11" target="1J90uPFelO6u6bb-csYD-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-18" value="komposisi product/category yang terjual" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="-1140" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-19" value="komposisi product /category berdasarkan revenue yang didapat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="-1140" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-20" value="discount per produk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="-1140" width="600" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-22" value="summary customer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="-920" width="520" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-23" value="summary product" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="-920" width="520" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-25" value="Kontrol 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1020" y="-1500" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-26" value="Kontrol 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-1500" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1J90uPFelO6u6bb-csYD-27" value="Kontrol 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-1500" width="250" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
